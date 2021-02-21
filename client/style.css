@@ -1,0 +1,101 @@
+:root {
+--mdc-theme-primary: #a34c00;
+--mdc-theme-secondary: #cfa967;
+}
+
+.card-content {
+padding: 16px;
+}
+
+.mdc-card {
+  margin: 10px 10px;
+  padding: 10px 20px;
+}
+
+.mdc-card:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  margin: 0px;
+  background: url('../books_bg.png') 100% 100%; 
+}
+
+header {
+  background-color: #fff;
+}
+
+.my_tab {
+  margin: 20px auto 20px auto;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  border: 0;
+  padding: 30px 20px;
+  height: 100%;
+  overflow-y: auto;
+  max-width: 1100px;
+  opacity: 1;
+}
+
+.list_header {
+  height: fit-content;
+  text-align: center;
+}
+
+.form-field {
+  display: block;
+  width: 80%;
+  margin: 15px auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* for form inputs - floating text */
+.mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+  color: #855831;
+}
+
+.form-card {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+  border: 0;
+  margin: 0 auto 10px auto;
+  padding: 30px 20px;
+  height: 100%;
+  overflow-y: auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.inner_form_field {
+  width: 100%;
+}
+
+.title_tag {
+  float: left;
+}
+
+.price_tag {
+  text-align: right;
+  float: right;
+}
+
+.main_line {
+  display: inline-block;
+  width: 100%;
+}
+
+.my_table {
+  margin: 10px auto;
+}
+
+.th {
+  font-weight: bold;
+}
